@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+
+.container {
+    width: 300px;
+    border: none
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    font-family: papyrus;
+}
+
+.titlu{
+    text-align: center;
+}
+
+.label {
+    margin: 8px 16px;
+}
+
+.userInput {
+    width: 200px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.submitButton {
+    margin-top: 32px;
+    width: 150px;
+    height: 40px;
+    background-color:yellow;
+    text-align: center;
+}
+.footer{
+    width: 200px;
+    height: 40px;
+    font-size: 8px;
+    font-family: papyrus;
+}
